@@ -18,7 +18,10 @@ const AdminSchema = new Schema({
     // required: true,
     // unique: true
   },
-
+  setpassword:{
+    type:Boolean,
+    default:false
+  },
   createdAt: {
     type: Date,
     default: Date.now
